@@ -5,6 +5,7 @@
 -- Create Date:    	19/03/2010 
 -- Design Name: 	uTosNet_spi Example
 -- Module Name:    	top - Behavioral 
+-- File Name:		top.vhd
 -- Project Name: 	uTosNet
 -- Target Devices: 	SDU XC3S50AN Board
 -- Tool versions: 	Xilinx ISE 11.4
@@ -14,7 +15,25 @@
 -- Revision: 
 -- Revision 0.10 - 	Initial release
 --
+-- Copyright 2010
+--
+-- This file is part of the uTosNet_spi Example
+--
+-- The uTosNet_spi Example is free software: you can redistribute it 
+-- and/or modify it under the terms of the GNU Lesser General Public License as
+-- published by the Free Software Foundation, either version 3 of the License,
+-- or (at your option) any later version.
+--
+-- The uTosNet_spi Example is distributed in the hope that it will be
+-- useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser
+-- General Public License for more details.
+--
+-- You should have received a copy of the GNU Lesser General Public License
+-- along with the uTosNet_spi Example. If not, see
+-- <http://www.gnu.org/licenses/>.
 ----------------------------------------------------------------------------------
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;

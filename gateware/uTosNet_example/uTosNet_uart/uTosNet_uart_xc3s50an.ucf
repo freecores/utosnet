@@ -1,3 +1,31 @@
+#
+# uTosNet_uart Example
+#
+# uTosNet_uart_xc3s50an.ucf
+# File created by:
+#	Simon Falsig
+#	University of Southern Denmark
+#	Copyright 2010
+#
+# This file is part of the uTosNet_uart Example
+#
+#	The uTosNet_uart Example is free software: you can redistribute it 
+#	and/or modify it under the terms of the GNU Lesser General Public License as
+#	published by the Free Software Foundation, either version 3 of the License,
+#	or (at your option) any later version.
+#
+#	The uTosNet_uart Example is distributed in the hope that it will be
+#	useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+#	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser
+#	General Public License for more details.
+#
+#	You should have received a copy of the GNU Lesser General Public License
+#	along with the uTosNet_uart Example. If not, see
+#	<http://www.gnu.org/licenses/>.
+#
+
+
+
 NET "CLK_50M_I" LOC = P124;
 NET "CLK_50M_I" IOSTANDARD = LVTTL;
 NET "LEDS_O[0]" LOC = P10;
